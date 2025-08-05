@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GenSage - Preserving Purpose. Building the Future.</title>
-    <link rel="icon" type="image/png" href="/images/g/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/g/glogo (2).png">
+    <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
@@ -16,7 +17,7 @@
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <button class="mobile-nav-toggle" aria-label="Toggle Navigation">
@@ -29,6 +30,7 @@
             <div class="hero-content">
                 <h1 class="hero-title">GenSage</h1>
                 <p class="hero-tagline">Preserving Purpose. Building the Future.</p>
+                <p class="hero-subtitle">Professional Web Development for Small Businesses & Entrepreneurs</p>
                 <a href="#pillars" class="hero-button">Discover Our Mission</a>
             </div>
         </section>
@@ -54,6 +56,32 @@
             </div>
         </section>
 
+        <section id="services" class="services-section">
+            <div class="page-title-container">
+                <h2>What We Do</h2>
+                <p>We craft beautiful, high-performance websites that help your business grow.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-palette"></i></div>
+                    <h3>Custom Web Design</h3>
+                    <p>From personal portfolios to professional business sites, we build custom websites from the ground up that are tailored to your unique brand and goals.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-shopping-cart"></i></div>
+                    <h3>E-commerce Solutions</h3>
+                    <p>Ready to sell online? We create powerful and easy-to-manage e-commerce websites that provide a seamless shopping experience for your customers.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Site Maintenance & Support</h3>
+                    <p>Need help keeping your site updated and secure? We offer reliable maintenance packages to ensure your website is always running smoothly.</p>
+                </div>
+            </div>
+        </section>
+
         <section class="projects-section">
             <div class="page-title-container">
                  <h1>Our Work</h1>
@@ -61,7 +89,7 @@
             </div>
             <div class="projects-grid">
                  <div class="project-card">
-                    <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800" alt="Professional Service Website" class="project-image">
+                    <img src="images/temppics/professional.jpeg" alt="Professional Service Website" class="project-image">
                     <div class="project-info">
                         <h3 class="project-title">Template A: Professional Services</h3>
                         <p class="project-description">A sharp, modern design for consultants, lawyers, and accountants. Built to establish credibility and trust.</p>
@@ -70,7 +98,7 @@
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800" alt="Restaurant Website" class="project-image">
+                    <img src="images/temppics/resturant.jpeg" alt="Restaurant Website" class="project-image">
                     <div class="project-info">
                         <h3 class="project-title">Template B: Restaurant</h3>
                         <p class="project-description">A professional single-page site for restaurants. Trustworthy and easy to navigate.</p>
@@ -79,7 +107,7 @@
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800" alt="Personal Brand Website" class="project-image">
+                    <img src="images/temppics/personal.jpeg" alt="Personal Brand Website" class="project-image">
                     <div class="project-info">
                         <h3 class="project-title">Template C: Personal Brand</h3>
                         <p class="project-description">A clean, personal site for tutors, artists, and coaches. Focused on showcasing individual talent.</p>
@@ -87,46 +115,65 @@
                         <a href="https://template-c-personal.netlify.app/" target="_blank" class="project-button">View Demo</a>
                     </div>
                 </div>
+                <div class="view-more-card">
+                    <a href="projects.html">
+                        <span>View All Projects</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
             </div>
         </section>
 
     </main>
-
-    <footer id="contact" class="contact-section">
-        <h2 class="section-title">Get In Touch</h2>
-        <p class="contact-subtitle">Have a project in mind or want to connect? Let's build something amazing together.</p>
-
-        <div class="contact-form-container">
-            <form name="contact" method="POST" data-netlify="true" action="/thank-you.html">
-                <p class="hidden">
-                    <label>Don't fill this out if you're human: <input name="bot-field" /></label>
-                </p>
-
-                <div class="form-group">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Your Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Your Message</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-                
-                <button type="submit" class="submit-button">Send Message</button>
-            </form>
-
-            <div class="separator-text">or</div>
-
-            <a href="https://wa.me/27685674755" class="whatsapp-button" target="_blank">
-                <i class="fab fa-whatsapp"></i> Chat on WhatsApp
-            </a>
+    <section id="testimonials" class="testimonials-section">
+        <div class="page-title-container">
+            <h2>What Our Clients Say</h2>
+            <p>Real feedback from people we've had the pleasure of working with.</p>
         </div>
 
-        <div class="contact-info">
-            <p>Alternatively, email directly at: <a href="mailto:ramarukb@gmail.com">GenSage Email</a></p>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <i class="fas fa-quote-left"></i>
+                <blockquote>
+                    Working with him was a seamless experience. He understood our vision for the tech accessory site perfectly and delivered a fast, modern website that our customers love.
+                </blockquote>
+                <cite>
+                    <a href="https://kayonelectronics.co.za" target="_blank" rel="noopener noreferrer" class="testimonial-link">
+                        <span class="client-name">Rendani Kone</span>
+                        <span class="client-role">Founder, Kay-Yone Electronics <i class="fas fa-external-link-alt"></i></span>
+                    </a>
+                </cite>
+            </div>
+
+            <div class="testimonial-card">
+                <i class="fas fa-quote-left"></i>
+                <blockquote>
+                    He created a fantastic, easy-to-use site for my tutoring services. It has helped me attract more students and organize my schedule. I couldn't be happier with the result!
+                </blockquote>
+                <cite>
+                    <a href="https://sunstutoring.co.za" target="_blank" rel="noopener noreferrer" class="testimonial-link">
+                        <span class="client-name">Mpho</span>
+                        <span class="client-role">Founder, Private Tutor @Sunstutring   <i class="fas fa-external-link-alt"></i></span>
+                    </a>
+                </cite>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="main-footer">
+        <div class="footer-content">
+            <p class="footer-text">Let's build something amazing together.</p>
+            <a href="contact.html" class="hero-button">Get In Touch</a>
+            <div class="footer-socials">
+                <a href="https://web.facebook.com/profile.php?id=61578900491630" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/MrDoItRight" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/gensage1" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="footer-copyright">
+                <p>Based in Thohoyandou, Limpopo | Serving clients worldwide</p>
+                &copy; 2025 GenSage. All Rights Reserved.
+            </div>
         </div>
     </footer>
 
