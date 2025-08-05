@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - GenSage</title>
+    <link rel="icon" type="image/png" href="/images/g/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <a href="index.html" class="nav-logo">GenSage</a>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="mobile-nav-toggle" aria-label="Toggle Navigation">
+            <span class="hamburger"></span>
+        </button>
+    </header>
+
+    <main class="page-content">
+        <div class="page-title-container">
+            <h1>Our Work</h1>
+            <p>A collection of projects showcasing our passion for technology, design, and purpose-driven development.</p>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800" alt="Professional Service Website" class="project-image">
+                <div class="project-info">
+                    <h3 class="project-title">Template A: Professional Services</h3>
+                    <p class="project-description">A sharp, modern design for consultants, lawyers, and accountants. Built to establish credibility and trust.</p>
+                    <div class="project-tech-tags"><span>HTML</span><span>CSS</span><span>Modern</span></div>
+                    <a href="https://template-a-professional.netlify.app/" target="_blank" class="project-button">View Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800" alt="Restaurant Website" class="project-image">
+                <div class="project-info">
+                    <h3 class="project-title">Template B: Restaurant</h3>
+                    <p class="project-description">A professional single-page site for restaurants. Trustworthy and easy to navigate.</p>
+                    <div class="project-tech-tags"><span>HTML</span><span>CSS</span><span>Vibrant</span></div>
+                    <a href="https://template-b-hospitality.netlify.app/" target="_blank" class="project-button">View Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800" alt="Personal Brand Website" class="project-image">
+                <div class="project-info">
+                    <h3 class="project-title">Template C: Personal Brand</h3>
+                    <p class="project-description">A clean, personal site for tutors, artists, and coaches. Focused on showcasing individual talent.</p>
+                    <div class="project-tech-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+                    <a href="https://template-c-personal.netlify.app/" target="_blank" class="project-button">View Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=800" alt="Private Clinic Website" class="project-image">
+                <div class="project-info">
+                    <h3 class="project-title">Template D: Private Clinic</h3>
+                    <p class="project-description">A professional, multi-page site for private clinics or healthcare providers. Trustworthy and easy to navigate.</p>
+                    <div class="project-tech-tags"><span>HTML</span><span>CSS</span><span>Multi-Page</span></div>
+                    <a href="https://template-d-healthcare.netlify.app/" target="_blank" class="project-button">View Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800" alt="Luxury Hotel" class="project-image">
+                <div class="project-info">
+                    <h3 class="project-title">Template F: Hospitality & Booking</h3>
+                    <p class="project-description">A premium, elegant template for hotels, guesthouses, and restaurants, designed to showcase luxury and simplify bookings.</p>
+                    <div class="project-tech-tags"><span>HTML</span><span>CSS</span><span>Coming Soon</span></div>
+                    <a href="#" class="project-button disabled-link">Coming Soon</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="contact" class="contact-section">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-subtitle">Have a project in mind or want to connect? Let's build something amazing together.</p>
+
+        <div class="contact-form-container">
+            <form name="contact" method="POST" data-netlify="true" action="/thank-you.html">
+                <p class="hidden">
+                    <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+                </p>
+
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+
+            <div class="separator-text">or</div>
+
+            <a href="https://wa.me/27685674755" class="whatsapp-button" target="_blank">
+                <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+        </div>
+
+        <div class="contact-info">
+            <p>Alternatively, email directly at: <a href="mailto:ramarukb@gmail.com">GenSage Email</a></p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

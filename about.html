@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - GenSage</title>
+    <link rel="icon" type="image/png" href="/images/g/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <a href="index.html" class="nav-logo">GenSage</a>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="mobile-nav-toggle" aria-label="Toggle Navigation">
+            <span class="hamburger"></span>
+        </button>
+    </header>
+
+    <main class="page-content">
+        <div class="about-hero">
+            <div class="about-hero-text">
+                <h1>Rooted in Purpose, Driven by Innovation.</h1>
+                <p>GenSage is more than a business; it's a movement dedicated to forging a better future. We believe in blending timeless wisdom with modern technology to empower individuals and organizations to achieve their highest purpose.</p>
+            </div>
+            <div class="about-hero-image">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800" alt="GenSage Team">
+            </div>
+        </div>
+
+        <div class="about-section story-section">
+            <h2 class="section-title">Our Story</h2>
+
+            <p>
+                GenSage began with a simple truth: The tools are already here. The opportunity is already in your hands. For me, Ramaru Khumbudzo Brandan, it wasn't about waiting for someone to offer a job or pave the way — it was about realizing that the door was already open. The web is vast, the resources are free, and the excuses are gone.
+            </p>
+
+            <p class="story-emphasis">
+                So why not build? That was the genesis — not just of a business, but of a conviction.
+            </p>
+            
+            <p>
+                GenSage was born out of a desire to create meaningful work, not just for myself, but for others who, like me, are determined to step out of passivity and into purpose. "Preserving Purpose. Building the Future." is more than a slogan — it's a posture. It means staying rooted in who God created us to be, while using every tool, skill, and moment to forge a better tomorrow.
+            </p>
+            
+            <blockquote>
+                “The fear of the Lord is the beginning of wisdom”
+                <cite>Proverbs 9:10</cite>
+            </blockquote>
+
+            <p>
+                It's about holding fast to that wisdom — letting that wisdom guide innovation, integrity, and impact. This is GenSage: a journey, a calling, and a quiet fire to build with intention and walk with purpose.
+            </p>
+        </div>
+
+       <div class="about-section mission-section">
+            <h2 class="section-title">Our Mission</h2>
+            <p class="mission-intro">
+                At GenSage, our mission is built on three unshakable pillars: Faith, Technology, and Empowerment.
+            </p>
+
+            <div class="mission-grid">
+                <div class="mission-pillar">
+                    <div class="mission-icon">
+                        <i class="fas fa-cross"></i>
+                    </div>
+                    <h3>Faith</h3>
+                    <p>
+                        Faith is our foundation. We exist under the Kingdom, and our highest calling is to honor the Lord in everything we build. We move not by trends, but by truth. We believe light shines brightest in the digital world when it's lit from within.
+                    </p>
+                </div>
+
+                <div class="mission-pillar">
+                    <div class="mission-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Technology</h3>
+                    <p>
+                        Technology is our tool. Through web development and digital craftsmanship, we help small business owners get online with clarity, credibility, and confidence. We believe technology should serve people — not replace them.
+                    </p>
+                </div>
+
+                <div class="mission-pillar">
+                    <div class="mission-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Empowerment</h3>
+                    <p>
+                        Empowerment is our drive. We don't just build websites; we help build courage, momentum, and ownership. We're here for the ones who are ready to forge their future, no matter where they're starting from.
+                    </p>
+                </div>
+            </div>
+
+            <p class="mission-outro">
+                In everything we do, we aim to forge with purpose, illuminate with wisdom, and stay true to the mission: to help others walk in their calling — boldly, skillfully, and faithfully.
+            </p>
+        </div>
+    </main>
+
+    <footer id="contact" class="contact-section">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-subtitle">Have a project in mind or want to connect? Let's build something amazing together.</p>
+
+        <div class="contact-form-container">
+            <form name="contact" method="POST" data-netlify="true" action="/thank-you.html">
+                <p class="hidden">
+                    <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+                </p>
+
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+
+            <div class="separator-text">or</div>
+
+            <a href="https://wa.me/27685674755" class="whatsapp-button" target="_blank">
+                <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+        </div>
+
+        <div class="contact-info">
+            <p>Alternatively, email directly at: <a href="mailto:ramarukb@gmail.com">GenSage Email</a></p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
